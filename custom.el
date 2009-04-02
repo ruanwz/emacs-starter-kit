@@ -112,3 +112,17 @@
 (inferior-erlang)
 (select-window file-window)
 (switch-to-buffer file-buffer)))
+
+;; findr
+(autoload 'findr "findr" "Find file name." t)
+(define-key global-map [(meta control S)] 'findr)
+
+(autoload 'findr-search "findr" "Find text in files." t)
+(define-key global-map [(meta control s)] 'findr-search)
+
+(autoload 'findr-query-replace "findr" "Replace text in files." t)
+(define-key global-map [(meta control r)] 'findr-query-replace)
+
+;; ack
+(custom-set-variables '(grep-program "ack -H -a --nogroup --nocolor"))
+

@@ -1,4 +1,13 @@
 (1
+ (nav .
+      [(35)
+       nil "Emacs mode for IDE-like navigation of directories" single])
+ (company .
+	  [(0 2)
+	   nil "extensible inline text completion mechanism" tar])
+ (guess-style .
+	      [(0 1)
+	       nil "automatic setting of code style variables" single])
  (clojure-test-mode .
 		    [(1 0)
 		     ((clojure-mode
@@ -101,7 +110,7 @@
 		[(0 1 1)
 		 nil "helper functions for fringe bitmaps" single])
  (elk-test .
-	   [(0 3 1)
+	   [(0 3 2)
 	    ((fringe-helper
 	      (0 1 1)))
 	    "Emacs Lisp testing framework" single])
@@ -156,7 +165,7 @@
 	       [(1 0)
 		nil "load elisp libraries while Emacs is idle" single])
  (highlight-symbol .
-		   [(1 0 3)
+		   [(1 0 5)
 		    nil "automatic and manual symbol highlighting" single])
  (auto-dictionary .
 		  [(1 0 1)
@@ -221,7 +230,7 @@
 	  [(0 9)
 	   nil "Simple package system for Emacs" single])
  (highlight-parentheses .
-			[(0 9 1)
+			[(1 0 1)
 			 nil "highlight surrounding parentheses" single])
  (kill-ring-search .
 		   [(1 1)
